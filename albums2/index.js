@@ -7,7 +7,8 @@ import AlbumList from './src/components/AlbumList';
 // Create a component
 const App = () => {
   return (
-    <View>
+    // To the scrollview fit well
+    <View style={{ flex: 1 }}>
       <Header text="Albums" />
       <AlbumList />
     </View>
