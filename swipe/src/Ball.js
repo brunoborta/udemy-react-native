@@ -5,10 +5,10 @@ class Ball extends Component {
   componentWillMount() {
     // Where's the item right now?
     this.position = new Animated.ValueXY(0,0);
-    
+
     // Where's the element moving to?
     Animated.spring(this.position, {
-      toValue: { x: 200, y: 500 }
+      toValue: { x: 200, y: 450 }
     }).start();
   }
 
